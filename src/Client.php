@@ -27,6 +27,7 @@ use BeastlyBoutique\TiktokShop\Resources\ReturnRefund;
 use BeastlyBoutique\TiktokShop\Resources\Seller;
 use BeastlyBoutique\TiktokShop\Resources\Authorization;
 use BeastlyBoutique\TiktokShop\Resources\Supplychain;
+use BeastlyBoutique\TiktokShop\Resources\CustomerService;
 use Psr\Http\Message\RequestInterface;
 
 /**
@@ -77,6 +78,7 @@ class Client
         Supplychain::class,
         Event::class,
         ReturnRefund::class,
+        CustomerService::class,
     ];
 
     public function __construct($app_key, $app_secret, $options = [])

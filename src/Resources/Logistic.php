@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace EcomPHP\TiktokShop\Resources;
+namespace BeastlyBoutique\TiktokShop\Resources;
 
-use EcomPHP\TiktokShop\Resource;
+use BeastlyBoutique\TiktokShop\Resource;
 
 class Logistic extends Resource
 {

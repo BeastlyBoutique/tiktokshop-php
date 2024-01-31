@@ -8,14 +8,14 @@
  * file that was distributed with this source code.
  */
 
-namespace EcomPHP\TiktokShop;
+namespace BeastlyBoutique\TiktokShop;
 
 use DateTimeInterface;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use EcomPHP\TiktokShop\Client as TiktokShopClient;
-use EcomPHP\TiktokShop\Errors\ResponseException;
-use EcomPHP\TiktokShop\Errors\TokenException;
+use BeastlyBoutique\TiktokShop\Client as TiktokShopClient;
+use BeastlyBoutique\TiktokShop\Errors\ResponseException;
+use BeastlyBoutique\TiktokShop\Errors\TokenException;
 
 abstract class Resource
 {

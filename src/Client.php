@@ -8,25 +8,25 @@
  * file that was distributed with this source code.
  */
 
-namespace EcomPHP\TiktokShop;
+namespace BeastlyBoutique\TiktokShop;
 
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Client as GuzzleHttpClient;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\RequestOptions;
-use EcomPHP\TiktokShop\Errors\TiktokShopException;
-use EcomPHP\TiktokShop\Resources\Event;
-use EcomPHP\TiktokShop\Resources\Finance;
-use EcomPHP\TiktokShop\Resources\Fulfillment;
-use EcomPHP\TiktokShop\Resources\GlobalProduct;
-use EcomPHP\TiktokShop\Resources\Logistic;
-use EcomPHP\TiktokShop\Resources\Order;
-use EcomPHP\TiktokShop\Resources\Product;
-use EcomPHP\TiktokShop\Resources\Promotion;
-use EcomPHP\TiktokShop\Resources\ReturnRefund;
-use EcomPHP\TiktokShop\Resources\Seller;
-use EcomPHP\TiktokShop\Resources\Authorization;
-use EcomPHP\TiktokShop\Resources\Supplychain;
+use BeastlyBoutique\TiktokShop\Errors\TiktokShopException;
+use BeastlyBoutique\TiktokShop\Resources\Event;
+use BeastlyBoutique\TiktokShop\Resources\Finance;
+use BeastlyBoutique\TiktokShop\Resources\Fulfillment;
+use BeastlyBoutique\TiktokShop\Resources\GlobalProduct;
+use BeastlyBoutique\TiktokShop\Resources\Logistic;
+use BeastlyBoutique\TiktokShop\Resources\Order;
+use BeastlyBoutique\TiktokShop\Resources\Product;
+use BeastlyBoutique\TiktokShop\Resources\Promotion;
+use BeastlyBoutique\TiktokShop\Resources\ReturnRefund;
+use BeastlyBoutique\TiktokShop\Resources\Seller;
+use BeastlyBoutique\TiktokShop\Resources\Authorization;
+use BeastlyBoutique\TiktokShop\Resources\Supplychain;
 use Psr\Http\Message\RequestInterface;
 
 /**

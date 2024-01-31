@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace EcomPHP\TiktokShop\Errors;
+namespace BeastlyBoutique\TiktokShop\Errors;
 
 class AuthorizationException extends TiktokShopException
 {
